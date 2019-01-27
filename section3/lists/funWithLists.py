@@ -1,3 +1,16 @@
+# Solve the problem with just variables
+
+n_pizza = int(input("Hello sir, how many pizzas do you want?: "))  
+price_pizza = 2
+price_burgers = 3
+n_burgers = int(input("Hello sir, how many burgers do you want?: ")) 
+
+# Get the total 
+
+total = n_pizza * price_pizza + price_burgers * n_burgers 
+
+print(total) 
+
 # Create an empty list 
 
 total = [] 
