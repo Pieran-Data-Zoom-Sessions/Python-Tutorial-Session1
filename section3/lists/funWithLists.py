@@ -27,7 +27,7 @@ total.append(product_burgers)
 print(sum(total))  
 
 taxRates = {'california': 0.075, 'texas': 0.08, 'new york': 0.10, 'nevada': 0.095} 
-print(taxRates.keys()) 
+print(list(taxRates.keys())) 
 
 userInput = input("What state are you in?: ").lower().replace(' ', '')   
 if userInput in [taxRates.keys]:
